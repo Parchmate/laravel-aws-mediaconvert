@@ -1,10 +1,10 @@
 <?php
 
-namespace Finller\AwsMediaConvert;
+namespace Parchmate\AwsMediaConvert;
 
 use Aws\Credentials\Credentials;
 use Aws\MediaConvert\MediaConvertClient;
-use Finller\AwsMediaConvert\Http\Controllers\AwsMediaConvertWebhookController;
+use Parchmate\AwsMediaConvert\Http\Controllers\AwsMediaConvertWebhookController;
 use Illuminate\Support\Facades\Route;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

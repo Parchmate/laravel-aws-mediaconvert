@@ -1,6 +1,6 @@
 <?php
 
-namespace Finller\AwsMediaConvert\Facades;
+namespace Parchmate\AwsMediaConvert\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Facade;
  * @method static \Aws\Result listJobs(array $options)
  * @method static string getUri(?string $path) retrieve AWS S3 uri
  *
- * @see \Finller\AwsMediaConvert\AwsMediaConvert
+ * @see \Parchmate\AwsMediaConvert\AwsMediaConvert
  */
 class AwsMediaConvert extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Finller\AwsMediaConvert\AwsMediaConvert::class;
+        return \Parchmate\AwsMediaConvert\AwsMediaConvert::class;
     }
 }

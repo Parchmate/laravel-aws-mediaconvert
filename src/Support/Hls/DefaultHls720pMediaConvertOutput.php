@@ -1,6 +1,6 @@
 <?php
 
-namespace Finller\AwsMediaConvert\Support\Hls;
+namespace Parchmate\AwsMediaConvert\Support\Hls;
 
 class DefaultHls720pMediaConvertOutput
 {

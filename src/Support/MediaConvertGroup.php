@@ -1,6 +1,6 @@
 <?php
 
-namespace Finller\AwsMediaConvert\Support;
+namespace Parchmate\AwsMediaConvert\Support;
 
 use Illuminate\Contracts\Support\Arrayable;
 

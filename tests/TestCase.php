@@ -1,8 +1,8 @@
 <?php
 
-namespace Finller\AwsMediaConvert\Tests;
+namespace Parchmate\AwsMediaConvert\Tests;
 
-use Finller\AwsMediaConvert\AwsMediaConvertServiceProvider;
+use Parchmate\AwsMediaConvert\AwsMediaConvertServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Finller\\AwsMediaConvert\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Parchmate\\AwsMediaConvert\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

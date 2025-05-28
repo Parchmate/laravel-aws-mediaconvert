@@ -1,6 +1,6 @@
 <?php
 
-namespace Finller\AwsMediaConvert\Events;
+namespace Parchmate\AwsMediaConvert\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;

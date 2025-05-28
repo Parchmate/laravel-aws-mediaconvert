@@ -1,8 +1,8 @@
 <?php
 
-namespace Finller\AwsMediaConvert\Support\Hls;
+namespace Parchmate\AwsMediaConvert\Support\Hls;
 
-use Finller\AwsMediaConvert\Support\MediaConvertGroup;
+use Parchmate\AwsMediaConvert\Support\MediaConvertGroup;
 
 class DefaultHlsMediaConvertGroup extends MediaConvertGroup
 {

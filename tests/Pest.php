@@ -1,5 +1,5 @@
 <?php
 
-use Finller\AwsMediaConvert\Tests\TestCase;
+use Parchmate\AwsMediaConvert\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

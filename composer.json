@@ -2,7 +2,7 @@
     "name": "parchmate/laravel-aws-mediaconvert",
     "description": "Bring AWS MediaConvert to Laravel",
     "keywords": [
-        "finller",
+        "Parchmate",
         "laravel",
         "laravel-aws-mediaconvert"
     ],
@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Finller\\AwsMediaConvert\\": "src"
+            "Parchmate\\AwsMediaConvert\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Finller\\AwsMediaConvert\\Tests\\": "tests"
+            "Parchmate\\AwsMediaConvert\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Finller\\AwsMediaConvert\\AwsMediaConvertServiceProvider"
+                "Parchmate\\AwsMediaConvert\\AwsMediaConvertServiceProvider"
             ],
             "aliases": {
-                "AwsMediaConvert": "Finller\\AwsMediaConvert\\Facades\\AwsMediaConvert"
+                "AwsMediaConvert": "Parchmate\\AwsMediaConvert\\Facades\\AwsMediaConvert"
             }
         }
     },

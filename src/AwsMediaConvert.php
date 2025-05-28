@@ -1,6 +1,6 @@
 <?php
 
-namespace Finller\AwsMediaConvert;
+namespace Parchmate\AwsMediaConvert;
 
 use Aws\MediaConvert\MediaConvertClient;
 use Illuminate\Support\Str;
