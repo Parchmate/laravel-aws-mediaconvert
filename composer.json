@@ -1,12 +1,12 @@
 {
-    "name": "finller/laravel-aws-mediaconvert",
+    "name": "parchmate/laravel-aws-mediaconvert",
     "description": "Bring AWS MediaConvert to Laravel",
     "keywords": [
         "finller",
         "laravel",
         "laravel-aws-mediaconvert"
     ],
-    "homepage": "https://github.com/finller/laravel-aws-mediaconvert",
+    "homepage": "https://github.com/parchmate/laravel-aws-mediaconvert",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
         "php": "^8.1",
         "aws/aws-php-sns-message-validator": "^1.8",
         "aws/aws-sdk-php": "^3.258.7",
-        "illuminate/contracts": "^10.0|^11.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0",
         "spatie/laravel-package-tools": "^1.14.1"
     },
     "require-dev": {
