@@ -15,7 +15,6 @@ return [
     ],
     'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     'version' => 'latest',
-    'endpoint' => env('AWS_MEDIACONVERT_ACCOUNT_URL'),
 
     /**
      * Specify the IAM Role ARN.
